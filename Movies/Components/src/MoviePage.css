@@ -1,0 +1,66 @@
+/* src/MovieCard.css */
+.movie-card {
+  background-color: #000814;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 290px;
+  margin: 10px 40px 30px 40px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.movie-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.movie-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.movie-details {
+  padding: 20px;
+  text-align: center;
+}
+.movie-title {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #ffd60a;
+}
+.movie-rating, .movie-year {
+  margin-top: -10px ; 
+  font-size: 1em;
+  color: #ffd60a;
+}
+
+/* for Search button */
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.searchInput {
+  width: 80vw;
+  max-width: 500px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 1rem;
+}
+.searchInput:focus {
+  border-color: #3498db;
+}
+.searchButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.searchButton:hover {
+  background-color: #2980b9;
+}
+
